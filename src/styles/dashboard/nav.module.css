@@ -1,0 +1,81 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #fafafa;
+    border-bottom: 1px solid #eaeaea;
+}
+.logo {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+.searchNav {
+    width: 47%;
+    display: flex;
+    align-items: center;
+}
+.searchNav img {
+    height: auto;
+    width: auto;
+}
+.searchNav span {
+    width: auto;
+    margin: 0 20px;
+    font-size: 20px;
+}
+.searchNav div {
+    display: flex;
+    height: 40px;
+    min-width: 600px;
+    width: 90%;
+    margin: 0 20px;
+    border-radius: 10px;
+    background: #eeebeb;
+    position: relative;
+}
+.searchNav div input {
+    width: 100%;
+    height: 100%;
+    padding: 0 40px;
+    font-size: 18px;
+    background: inherit;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.searchNav div .placeholder {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.searchNav div button {
+    background: inherit;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+.controlCont {
+    width: 30%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icon {
+    font-size: 25px;
+    color: #575353;
+}
+.dp {
+    width: 8%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.dp img {
+    margin: 0 10px;
+}

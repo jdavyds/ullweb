@@ -1,0 +1,157 @@
+.mainContainer {
+    background: #161733;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.logo {
+    width: fit-content;
+    height: 90px;
+    object-fit: cover;
+    margin: 30px 0;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+.regForm {
+    z-index: 111;
+    width: 60%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.regForm h2 {
+    font-size: 23px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+.regForm .formInput {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.formInput label {
+    color: #575353;
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    text-align: left;
+}
+.formInput label input, .formInput label select {
+    height: 35px;
+    margin: 10px 0;
+    padding: 0 20px;
+    border-radius: 20px;
+    border: 1px solid #6F72C0;
+    background: #EEEFF7;
+    color: #575353;
+    outline: none;
+}
+.customInput {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.customInput label {
+    color: #575353;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    text-align: left;
+}
+.customInput p {
+    position: relative;
+    width: 100%;
+}
+.customInput input {
+    height: 35px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 20px;
+    border-radius: 20px;
+    border: 1px solid #6F72C0;
+    background: #EEEFF7;
+    color: #575353;
+    outline: none;
+}
+.customInput button {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.icon {
+    color: #b9b0b0;
+    margin: 0 5px;
+}
+.buttonCont {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submitButton a {
+    text-decoration: none;
+    color: inherit;
+}
+.submitButton {
+    width: 80%;
+    height: 40px;
+    margin: 20px 0 10px;
+    font-size: 18px;
+    background: #6F72C0;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.buttonCont p {
+    margin: 20px;
+    padding: 0;
+}
+.buttonCont p a {
+    color: #6F72C0;
+    text-decoration: underline;
+}
+.privacy {
+    margin: 20px;
+    
+}
+.privacy a {
+    color: #6F72C0;
+    text-decoration: underline;
+}
+.tr {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.bl {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.arl {
+    position: absolute;
+    top: 100px;
+    left: 10%;
+}
+.arr {
+    position: absolute;
+    bottom: 100px;
+    right: 10%;
+}

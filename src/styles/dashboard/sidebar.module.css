@@ -1,0 +1,96 @@
+.dp {
+    display: flex;
+    padding: 20px;
+}
+.dp img {
+    margin-right: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+.dp p {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+.dp p span {
+    margin: 5px 0;
+}
+.dp p button {
+    background: inherit;
+    color: #6F72C0;
+    border: none;
+    font-size: 16px;
+    text-align: left;
+}
+.heading {
+    color: rgba(196, 196, 196, 0.8);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+}
+.links button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 0 0 50px 0;
+    border: none;
+    margin: 3px 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+}
+.links .active {
+    background: #EEEFF6;
+    color: #6F72C0;
+    border-left: 5px solid #6F72C0;
+}
+.links .normal {
+    background: transparent;
+    color: #575353;
+}
+.links button img {
+    padding-right: 10px;
+}
+.invite {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 30px;
+    margin: 20px 0;
+    line-height: 1.5;
+    text-align: center;
+}
+.invite b {
+    color: #6F72C0;
+}
+.invite nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+.invite label {
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eeebeb;
+    position: relative;
+}
+.invite label input {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background: inherit;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.invite label img {
+    margin-right: 10px;
+}
