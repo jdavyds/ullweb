@@ -1,15 +1,17 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import style from './../styles/register.module.css'
 import logo from './../assets/logo.png'
 import eye from './../assets/eye.png'
 import tr from './../assets/logTR.png'
 import bl from './../assets/logEl.png'
 import ar from './../assets/logDots.png'
+import down from './../assets/arrow-down.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleExclamation } from '@fortawesome/free-solid-svg-icons'
 
 export default function Register() {
+    const navigate = useNavigate()
   const [showP1, setShowP1] = useState(false)
   const [showP2, setShowP2] = useState(false)
   const [state, setState] = useState({
@@ -27,7 +29,7 @@ export default function Register() {
             <div className={style.logo}>
                 <img src={logo} alt="" />
             </div>
-            <form action="post" className={style.regForm}>
+            <form className={style.regForm}>
                 <h2>Let’s you get started on ULLWEB</h2>
                 <div className={style.formInput}>
                         <label htmlFor="firstname">
@@ -68,9 +70,11 @@ export default function Register() {
                     <label htmlFor="">
                         <span>Sex*</span>
                         <select name="sex" id="sex">
+                            <option value="" selected="selected"></option>
                             <option value="Male">Male</option>
                             <option value="Female">Female</option>
                         </select>
+                        <img src={down} alt="" />
                     </label>
                 </div>
                 <div className={style.formInput}>
@@ -136,10 +140,8 @@ export default function Register() {
                     </label>
                 </div>
                 <div className={style.buttonCont}>
-                    <button className={style.submitButton}>
-                        <Link to="/register-continue">
-                            Continue
-                        </Link>
+                    <button className={style.submitButton} onClick={() => navigate('/register-continue')}>
+                        Continue
                     </button>
                     <p>Already have an ULLWEB Accout? <Link to="/">Login</Link></p>
                 </div>

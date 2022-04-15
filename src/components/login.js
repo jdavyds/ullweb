@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import style from './../styles/login.module.css'
 import logo from './../assets/logo.png'
 import eye from './../assets/eye.png'
@@ -8,6 +8,7 @@ import bl from './../assets/logEl.png'
 import ar from './../assets/logDots.png'
 
 export default function Login() {
+    const navigate = useNavigate()
     const [showP1, setShowP1] = useState(false)
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
@@ -55,12 +56,10 @@ export default function Login() {
                     <button className={style.forgotText}>Forget password?</button>
                 </div>
                 <div className={style.buttonCont}>
-                    <button className={style.submitButton}>
-                        <Link to="/dahsboard/overview">
+                    <button className={style.submitButton} onClick={() => navigate('/dashboard/overview')}>
                         Login
-                        </Link>
                     </button>
-                    <p>Don’t have an ULLWEB account yet? <Link to="/register">Register</Link></p>
+                    <p>Don’t have an ULLWEB account yet? <button onClick={() => navigate("/register")}>Register</button></p>
                 </div>
             </form>
                 <img src={tr} className={style.tr} alt="" />

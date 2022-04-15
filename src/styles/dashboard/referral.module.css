@@ -1,0 +1,247 @@
+.referral {
+    padding: 30px;
+    color: #575353;
+}
+.process, .referral, .invite, .snippet {
+    margin: 30px 0;
+}
+.earn h2 {
+    color: #404494;
+    margin: 15px 0;
+}
+.earn p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+.earn button {
+    color: #404494;
+    background: inherit;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin: 10px 0;
+    text-decoration: underline;
+}
+.earn button img {
+    margin: 0 10px;
+}
+.process {
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.process nav {
+    width: 30%;
+    height: fit-content;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.process nav span {
+    background: #EEEFF6;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+.process nav b {
+    font-size: 20px;
+    margin: 20px;
+}
+.process nav p {
+    font-size: 18px;
+    margin: 10px 0;
+    width: 60%;
+    text-align: center;
+    line-height: 1.3;
+}
+.share h3 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+.share p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.share div {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.share div label {
+    width: 80%;
+    height: 50px;
+    margin: 20px 0;
+    background: #EEEFF6;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+.share div label input {
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    font-size: 18px;
+    background: inherit;
+    color: #404494;
+    border: none;
+    outline: none;
+    border-radius: inherit;
+}
+.share div label button {
+    background: inherit;
+    color: #404494;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 20px;
+    font-size: 18px;
+}
+.share div > button {
+    margin: auto;
+    background: #EEEFF6;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.invite h3 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+.invite p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.invite label {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    background: #EEEFF6;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #404494;
+}
+.invite label input {
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    font-size: 18px;
+    background: inherit;
+    color: #404494;
+    border: none;
+    outline: none;
+    border-radius: inherit;
+}
+.invite label button {
+    background: #404494;
+    color: white;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 5px;
+    font-size: 18px;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+}
+.snippet {
+    margin: 40px 0;
+}
+.snippet h3 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+.snippet p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.snippet button {
+    background: #404494;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    height: 50px;
+    width: 200px;
+    margin: 20px 0;
+    border-radius: 30px;
+}
+.earnModal {
+    background: #fff;
+    border-radius: 30px;
+    padding: 40px 50px 20px 50px;
+    position: relative;
+}
+.earnModal h1 {
+    width: fit-content;
+    margin: 0 auto 20px;
+}
+.earnModal div h3 {
+    color: #404494;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.earnModal div p {
+    font-size: 18px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.earnModal div img {
+    margin-right: 10px;
+}
+.earnModal div nav {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.earnModal div nav img {
+    width: 30%;
+}
+.cancel {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    border: none;
+    background: transparent !important;
+    padding: 0 !important;
+}
+.snippetModal {
+    background: #fff;
+    border-radius: 30px;
+    padding: 40px 50px 20px 50px;
+    position: relative;
+}
+.snippetModal h1 {
+    width: fit-content;
+    margin: 0 auto 20px;
+}
+.snippetModal div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+.snippetModal div nav {
+    width: fit-content;
+    margin: 10px;
+}
+.snippetModal div nav p {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.snippetModal div nav p img {
+    margin-right: 10px;
+}
