@@ -220,7 +220,7 @@
 .snippetModal {
     background: #fff;
     border-radius: 30px;
-    padding: 40px 50px 20px 50px;
+    padding: 30px 50px 20px 50px;
     position: relative;
 }
 .snippetModal h1 {
@@ -234,7 +234,7 @@
 }
 .snippetModal div nav {
     width: fit-content;
-    margin: 10px;
+    margin: 0 10px;
 }
 .snippetModal div nav p {
     margin: 10px auto;
