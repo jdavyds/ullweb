@@ -18,7 +18,7 @@
 }
 .loginForm {
     z-index: 111;
-    width: 30%;
+    width: 40%;
     margin-bottom: 100px;
     display: flex;
     flex-direction: column;
